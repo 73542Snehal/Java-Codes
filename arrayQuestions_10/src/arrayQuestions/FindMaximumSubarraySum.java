@@ -1,7 +1,8 @@
 package arrayQuestions;
 /*Find Maximum Subarray Sum
 Send Feedback
-You are given an integer array, arr, of size N and a positive integer K. Out of all subarrays of 'arr' of size K, find the sum of the subarray that has the maximum sum.
+You are given an integer array, arr, of size N and a positive integer K. 
+Out of all subarrays of 'arr' of size K, find the sum of the subarray that has the maximum sum.
 Input format:
 The first line of the input contains two space-separated integers, N and K
 The second line contains N space-separated integers which represent the elements of the array, arr
@@ -22,7 +23,8 @@ Sample Input 2:
 Sample Output 2:
 14
 Explanation for Sample Output 2:
-There are 5 subarrays of size 2 in this array. They are {2, 7}, {7, 3}, {3, 6}, {6, 7}, {7, 7}. Since the subarray {7, 7} has the maximum sum among all the subarrays, the output will be 7 + 7 = 14*/
+There are 5 subarrays of size 2 in this array. They are {2, 7}, {7, 3}, {3, 6}, {6, 7}, {7, 7}. 
+Since the subarray {7, 7} has the maximum sum among all the subarrays, the output will be 7 + 7 = 14*/
 import java.util.*;
 
 public class FindMaximumSubarraySum {

@@ -1,7 +1,8 @@
 package arrayQuestions;
 /*Pair Sum
 Send Feedback
-You have been given an integer array/list(ARR) and a number X. Find and return the total number of pairs in the array/list which sum to X.
+You have been given an integer array/list(ARR) and a number X. 
+Find and return the total number of pairs in the array/list which sum to X.
 Note:
 Given array/list can contain duplicate elements. 
 Input format :

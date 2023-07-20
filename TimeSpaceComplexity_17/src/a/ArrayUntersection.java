@@ -50,7 +50,9 @@ Sample Input 2 :
 Sample Output 2 :
 1 2 2
 Explanation for Sample Output 2 :
-Since, both input arrays have two '2's, the intersection of the arrays also have two '2's. The first '2' of first array matches with the first '2' of the second array. Similarly, the second '2' of the first array matches with the second '2' if the second array.*/
+Since, both input arrays have two '2's, the intersection of the arrays also have two '2's. 
+The first '2' of first array matches with the first '2' of the second array. Similarly, 
+the second '2' of the first array matches with the second '2' if the second array.*/
 import java.util.*;
 import java.io.BufferedReader;
 import java.io.IOException;

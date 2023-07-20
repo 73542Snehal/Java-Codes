@@ -1,5 +1,12 @@
 package st;
-
+/*Enter String: 
+abc
+a
+ab
+abc
+b
+bc
+c*/
 import java.util.Scanner;
 
 public class printAllSubstrings {

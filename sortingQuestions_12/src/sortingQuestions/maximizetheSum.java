@@ -21,7 +21,9 @@ Sample Input :
 Sample Output :
 81
 Explanation :
-We start from array 2 and take sum till 5 (sum = 11). Then we'll switch to array at element 10 and take till 15. So sum = 36. Now, no elements left in array after 15, so we'll continue in array 1. Hence sum is 81*/
+We start from array 2 and take sum till 5 (sum = 11). 
+Then we'll switch to array at element 10 and take till 15. So sum = 36. 
+Now, no elements left in array after 15, so we'll continue in array 1. Hence sum is 81*/
 import java.util.*;
 
 public class maximizetheSum {

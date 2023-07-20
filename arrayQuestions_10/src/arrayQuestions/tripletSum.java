@@ -1,7 +1,8 @@
 package arrayQuestions;
 /*Triplet Sum
 Send Feedback
-You have been given a random integer array/list(ARR) and a number X. Find and return the number of triplets in the array/list which sum to X.
+You have been given a random integer array/list(ARR) and a number X. 
+Find and return the number of triplets in the array/list which sum to X.
 Note :
 Given array/list can contain duplicate elements.
 Input format :
@@ -44,7 +45,8 @@ Sample Output 2:
  Explanation for Input 2:
 Since there doesn't exist any triplet with sum equal to 19 for the first query, we print 0.
 
-For the second query, we have 5 triplets in total that sum up to 10. They are, (2, 8, 0), (2, 11, -3), (-5, 5, 10), (8, 5, -3) and (-6, 5, 11)*/
+For the second query, we have 5 triplets in total that sum up to 10. 
+They are, (2, 8, 0), (2, 11, -3), (-5, 5, 10), (8, 5, -3) and (-6, 5, 11)*/
 import java.util.*;
 public class tripletSum {
 	

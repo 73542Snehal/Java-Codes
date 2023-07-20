@@ -25,7 +25,7 @@ public class que2 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		// TODO Auto-generated method stub
+		
 		char c = sc.next().charAt(0) ;
 		//String c = sc.nextLine();
 		
