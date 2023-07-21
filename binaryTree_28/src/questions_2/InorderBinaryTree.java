@@ -1,5 +1,5 @@
 package questions_2;
-
+//print tree inorder format
 import java.util.*;
 
 public class InorderBinaryTree {

@@ -1,5 +1,6 @@
 package BalancedTree_3;
-
+//balanced binary tree, is defined as a binary tree in which the height of the left and right 
+//subtree of any node differ by not more than 1.
 import java.util.Scanner;
 
 public class balancedTree {

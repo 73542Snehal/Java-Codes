@@ -1,7 +1,8 @@
 package questions_4;
 /*Path Sum Root to Leaf
 Send Feedback
-For a given Binary Tree of type integer and a number K, print out all root-to-leaf paths where the sum of all the node data along the path is equal to K.
+For a given Binary Tree of type integer and a number K, 
+print out all root-to-leaf paths where the sum of all the node data along the path is equal to K.
 Example:
 alt txt
 

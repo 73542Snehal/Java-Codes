@@ -1,7 +1,8 @@
 package binarySearchTree;
 /*Construct BST
 Send Feedback
-Given a sorted integer array A of size n, which contains all unique elements. You need to construct a balanced BST from this input array. Return the root of constructed BST.
+Given a sorted integer array A of size n, which contains all unique elements. 
+You need to construct a balanced BST from this input array. Return the root of constructed BST.
 Note: If array size is even, take first mid as root.
 Input format:
 The first line of input contains an integer, which denotes the value of n. The following line contains n space separated integers, that denote the values of array.

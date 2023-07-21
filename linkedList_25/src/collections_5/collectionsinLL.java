@@ -5,7 +5,7 @@ import java.util.LinkedList;//import this to use all the functions
 
 public class collectionsinLL {
 	   public static void main(String[] args){
-	        LinkedList<Integer> list= new LinkedList<>();//LL used here id by default doubly LL
+	        LinkedList<Integer> list= new LinkedList<>();//LL used here is by default doubly LL
 	        list.add(10);
 	        list.add(20);
 	        list.add(30);

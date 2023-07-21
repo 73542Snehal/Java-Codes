@@ -2,7 +2,8 @@ package questions_4;
 /*Print nodes at distance k from node
 Send Feedback
 You are given a Binary Tree of type integer, a target node, and an integer value K.
-Print the data of all nodes that have a distance K from the target node. The order in which they would be printed will not matter.
+Print the data of all nodes that have a distance K from the target node. 
+The order in which they would be printed will not matter.
 Example:
 For a given input tree(refer to the image below):
 1. Target Node: 5

@@ -1,6 +1,6 @@
 package questions_4;
 
-import java.util.Scanner;
+import java.util.*;
 
 /*Diameter Of Binary Tree
 Send Feedback

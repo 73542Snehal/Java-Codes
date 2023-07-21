@@ -1,5 +1,5 @@
 package questions_2;
-
+//print tree postorder format
 import java.util.*;
 
 public class PostorderBinaryTree {

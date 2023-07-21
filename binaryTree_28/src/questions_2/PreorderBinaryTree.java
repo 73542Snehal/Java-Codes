@@ -1,5 +1,5 @@
 package questions_2;
-
+//print tree preorder format
 import java.util.*;
 
 public class PreorderBinaryTree {

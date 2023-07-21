@@ -1,7 +1,8 @@
 package questions;
 /*Node having sum of children and node is max
 Send Feedback
-Given a tree, find and return the node for which sum of data of all children and the node itself is maximum. In the sum, data of node itself and data of immediate children is to be taken.
+Given a tree, find and return the node for which sum of data of all children and the node itself is maximum. 
+In the sum, data of node itself and data of immediate children is to be taken.
 Input format :
 
 Line 1 : Elements in level order form separated by space (as per done in class). Order is -

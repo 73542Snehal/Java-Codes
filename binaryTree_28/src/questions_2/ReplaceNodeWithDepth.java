@@ -1,5 +1,5 @@
 package questions_2; 
-
+//replace the node at depth k
 import java.util.*;
 
 public class ReplaceNodeWithDepth {

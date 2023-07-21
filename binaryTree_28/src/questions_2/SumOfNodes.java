@@ -1,5 +1,5 @@
 package questions_2;
-//count No of Nodes in tree 
+//count sum of Nodes in tree 
 
 import java.util.*;
 
