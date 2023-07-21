@@ -1,9 +1,11 @@
 package questions;
 /*Check Max-Heap
 Send Feedback
-Given an array of integers, check whether it represents max-heap or not. Return true if the given array represents max-heap, else return false.
+Given an array of integers, check whether it represents max-heap or not. 
+Return true if the given array represents max-heap, else return false.
 Input Format:
-The first line of input contains an integer, that denotes the value of the size of the array. Let us denote it with the symbol N.
+The first line of input contains an integer, that denotes the value of the size of the array. 
+Let us denote it with the symbol N.
 The following line contains N space separated integers, that denote the value of the elements of the array.
 Output Format :
 The first and only line of output contains true if it represents max-heap and false if it is not a max-heap.

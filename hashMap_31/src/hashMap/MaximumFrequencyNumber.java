@@ -1,7 +1,8 @@
 package hashMap;
 /*Maximum Frequency Number
 Send Feedback
-You are given an array of integers that contain numbers in random order. Write a program to find and return the number which occurs the maximum times in the given input.
+You are given an array of integers that contain numbers in random order. 
+Write a program to find and return the number which occurs the maximum times in the given input.
 If two or more elements are having the maximum frequency, return the element which occurs in the array first.
 Input Format:
 The first line of input contains an integer, that denotes the value of the size of the array. Let us denote it with the symbol N.
