@@ -33,64 +33,62 @@ Explanation to Sample Input 2:
 The initial two pairs of brackets are balanced. But when you see, the opening bracket at the fourth index doesn't have its corresponding closing bracket which makes it imbalanced and in turn, making the whole expression imbalanced. Hence the output prints 'false'.*/
 public class BracketsBalanced {
 
-    public static boolean isBalanced(String expression) {
+	public static boolean isBalanced(String expression) {
 
-       
+		Stack<Character> stack=new Stack<Character>();
 
-        Stack<Character> stack=new Stack<Character>();
-        
-        for (int j=0;j<expression.length();j++)
-        {
-            char i=expression.charAt(j);
-            if (i=='[' || i=='{' || i=='(')
-            {
-                stack.push(i);
-            }
-            else if(i==']' || i=='}' || i==')')
-            {
-                if (stack.isEmpty())
-                    return false;
-                
-                else
-                {
-                    if (i==']')
-                    {
-                        if (stack.peek()!='[')
-                            return false;
-                        else
-                            stack.pop();
-                    }
-                    
-                    else if (i=='}')
-                    {
-                        if (stack.peek()!='{')
-                            return false;
-                        else
-                            stack.pop();
-                    }
-                    
-                    else if (i==')')
-                    {
-                        if (stack.peek()!='(')
-                            return false;
-                        else
-                            stack.pop();
-                    }
-                }
-            }
-            
-        }
-        return stack.isEmpty();
-        
-    }
+		for (int j=0;j<expression.length();j++)
+		{
+			char i=expression.charAt(j);
+			if (i=='[' || i=='{' || i=='(')
+			{
+				stack.push(i);
+			}
+			else if(i==']' || i=='}' || i==')')
+			{
+				if (stack.isEmpty())
+					return false;
 
-        	
-    
-	
+				else
+				{
+					if (i==']')
+					{
+						if (stack.peek()!='[')
+							return false;
+						else
+							stack.pop();
+					}
+
+					else if (i=='}')
+					{
+						if (stack.peek()!='{')
+							return false;
+						else
+							stack.pop();
+					}
+
+					else if (i==')')
+					{
+						if (stack.peek()!='(')
+							return false;
+						else
+							stack.pop();
+					}
+				}
+			}
+
+		}
+		return stack.isEmpty();
+
+	}
+
+
+
+
 	public static void main(String[] args) 
-    {
-        Scanner sr = new Scanner(System.in);
-        String expression = sr.next();
-        System.out.println(isBalanced(expression));
-    }
+	{
+		Scanner sr = new Scanner(System.in);
+		String expression = sr.next();
+		System.out.println(isBalanced(expression));
+	}
 }
